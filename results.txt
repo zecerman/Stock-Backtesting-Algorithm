@@ -1,0 +1,10 @@
+start_date="2023-01-01", stop_loss_percent=10, exit_price_percent=30,
+
+print(np.mean(df2['Ticker']), np.mean(df2['SMP500']), np.mean(df2['Ticker']) - np.mean(df2['SMP500']))
+0.4734702556118575 0.13533382586893616 0.33813642974292135
+
+np.mean(df2['Days Held'])
+128.50817188226026
+
+----------
+
